@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.header-section{
+    background-color: darkcyan;
+    padding: 20px 50px;
+}
+
+.container hr{
+    border-top: 3px solid #c0392b;
+    width: 8%;
+}
+.heading-text h1{
+    color:#fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading-text p{
+    color:#bdc3c7;
+    font-size:22px;
+}
+.heading-text .button{
+    margin-bottom:30px;
+    margin-top: 20px;
+}
+.about{
+    background-color:#e74c3c;
+    overflow: hidden;
+    color:#fff;
+    padding:40px;
+}
+.about p{
+    color:#000;
+    font-size:20px;
+}
+.about hr{
+    border-top:3px solid black;
+}
+.service{
+    background: #ecf0f1;
+    padding:50px;
+    overflow:hidden;
+}
+.service .ser-icon{
+    color:#e74c3c;
+}
+.service h4{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.download{
+    background: grey;
+    padding:80px;
+}
+.contact h2{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact p{
+    font-size:18px;
+}
+
+
+/******* Media Responsive *******/
+
+@media(max-width:420px){
+    .heading-text h1{
+        font-size:30px;
+    }
+}
